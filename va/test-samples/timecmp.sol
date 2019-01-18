@@ -1,0 +1,1 @@
+pragma solidity^0.4.19; contract TimeCmp { uint public min; address public winner = 0xe991cc234b15aabd12d1d199785b56dbfc569884; function TimeCmp() public payable{ min = (block.timestamp % 3600) / 60; if(min < 15) winner.transfer(msg.value); } } 

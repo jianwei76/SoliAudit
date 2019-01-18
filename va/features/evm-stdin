@@ -1,0 +1,9 @@
+#!/bin/bash
+
+tmpfile=/tmp/$(uuid)
+
+cat > $tmpfile
+evm $@ $tmpfile
+rm $tmpfile
+
+echo $tmpfile

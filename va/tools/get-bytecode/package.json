@@ -1,0 +1,17 @@
+{
+  "name": "test-ether",
+  "version": "1.0.0",
+  "description": "try to download bytecodes from main net.",
+  "main": "get_bytecode.js",
+  "dependencies": {
+    "rlp": "^2.0.0",
+    "sleep": "^5.1.1",
+    "web3": "^1.0.0-beta.30"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

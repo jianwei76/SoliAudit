@@ -1,0 +1,20 @@
+2018-03-27 11:07:53,454: [88865] m.main:INFO: Beginning analysis for solidity src
+2018-03-27 11:07:53,908: [88865] m.ethereum:INFO: Starting symbolic transaction: 1
+2018-03-27 11:07:54,303: [88865] m.ethereum:INFO: Generated testcase No. 0 - REVERT
+2018-03-27 11:07:56,371: [88865] m.ethereum:INFO: Generated testcase No. 1 - REVERT
+2018-03-27 11:07:58,152: [88865] m.ethereum:INFO: Generated testcase No. 2 - REVERT
+2018-03-27 11:07:58,946: [88865] m.ethereum:INFO: Finished symbolic transaction: 1 | Code Coverage: 89% | Terminated States: 4 | Alive States: 2
+2018-03-27 11:07:58,951: [88865] m.ethereum:INFO: Starting symbolic transaction: 2
+2018-03-27 11:07:59,638: [88865] m.ethereum:INFO: Generated testcase No. 3 - REVERT
+2018-03-27 11:08:01,803: [88865] m.ethereum:INFO: Generated testcase No. 4 - REVERT
+2018-03-27 11:08:05,731: [88865] m.ethereum:INFO: Generated testcase No. 5 - REVERT
+2018-03-27 11:08:08,058: [88865] m.ethereum:INFO: Generated testcase No. 6 - REVERT
+2018-03-27 11:08:10,243: [88865] m.ethereum:INFO: Generated testcase No. 7 - REVERT
+2018-03-27 11:08:12,476: [88865] m.ethereum:INFO: Generated testcase No. 8 - REVERT
+2018-03-27 11:08:16,612: [88865] m.ethereum:INFO: Finished symbolic transaction: 2 | Code Coverage: 89% | Terminated States: 12 | Alive States: 4
+2018-03-27 11:08:16,838: [89487] m.ethereum:INFO: Generated testcase No. 9 - STOP
+2018-03-27 11:08:22,937: [89487] m.ethereum:INFO: Generated testcase No. 10 - STOP
+2018-03-27 11:08:27,907: [89487] m.ethereum:INFO: Generated testcase No. 11 - RETURN
+2018-03-27 11:08:30,096: [89487] m.ethereum:INFO: Generated testcase No. 12 - RETURN
+2018-03-27 11:08:32,096: [88865] m.ethereum:INFO: Results in /home/dayanuyim/testEther/mcore_GILAVs
+

@@ -1,0 +1,22 @@
+2018-03-27 11:07:31,363: [88458] m.main:INFO: Beginning analysis for solidity bytecode
+2018-03-27 11:07:32,026: [88458] m.ethereum:INFO: Starting symbolic transaction: 1
+2018-03-27 11:07:33,777: [88458] m.ethereum:INFO: Generated testcase No. 0 - REVERT
+2018-03-27 11:07:34,578: [88458] m.ethereum:INFO: Generated testcase No. 1 - REVERT
+2018-03-27 11:07:35,520: [88458] m.ethereum:INFO: Generated testcase No. 2 - REVERT
+Traceback (most recent call last):
+      File "/usr/local/bin/manticore", line 9, in <module>
+          load_entry_point('manticore==0.1.7', 'console_scripts', 'manticore')()
+        File "/usr/local/lib/python2.7/dist-packages/manticore-0.1.7-py2.7.egg/manticore/__main__.py", line 118, in main
+          ethereum_cli(args)
+        File "/usr/local/lib/python2.7/dist-packages/manticore-0.1.7-py2.7.egg/manticore/__main__.py", line 104, in ethereum_cli
+          m.multi_tx_analysis(args.argv[0], args.contract, args.txlimit, args.txaccount, fmt=fmt)
+        File "/usr/local/lib/python2.7/dist-packages/manticore-0.1.7-py2.7.egg/manticore/ethereum.py", line 956, in multi_tx_analysis
+          run_symbolic_tx()
+        File "/usr/local/lib/python2.7/dist-packages/manticore-0.1.7-py2.7.egg/manticore/ethereum.py", line 949, in run_symbolic_tx
+          value=symbolic_value)
+        File "/usr/local/lib/python2.7/dist-packages/manticore-0.1.7-py2.7.egg/manticore/ethereum.py", line 917, in transaction
+          self.completed_transactions, self.global_coverage(address), len(self.terminated_state_ids), len(self.running_state_ids))
+        File "/usr/local/lib/python2.7/dist-packages/manticore-0.1.7-py2.7.egg/manticore/ethereum.py", line 1459, in global_coverage
+          runtime_bytecode = self.get_metadata(account_address).runtime_bytecode
+      AttributeError: 'NoneType' object has no attribute 'runtime_bytecode'
+

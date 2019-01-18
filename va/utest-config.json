@@ -1,0 +1,18 @@
+{
+    "host": "",
+    "port": 20180,
+    "task": {
+        "dir": "tasks",
+		"cmd": "/home/cialab/Works/ethvul/vul-predict/main.py predict -q -s \"${samplePath}\"",
+        "reportSuffix": ".report.md"
+    },
+    "amq": {
+        "host": "",
+        "port": 61613,
+        "queue": "csfResult"
+    },
+    "log": {
+        "format": "[:date[Asia/Taipei]] :remote-addr - :remote-user ':method :url HTTP/:http-version' :status :res[content-length] ms",
+        "dateFormat": "YYYY-MM-DD HH:mm:ss.SSS"
+    }
+}
